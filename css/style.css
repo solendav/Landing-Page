@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    
+}
+.conteiner{
+    min-height: 25vh;
+    background: #1f2937;
+    color: aliceblue;
+    padding:  0 100px;
+}
+.header{
+   
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    
+    padding: 10px 10px 10px 0;
+    gap: 1rem;
+    margin-bottom: 40px;
+
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    margin-right:auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pa {
+
+text-align: center;
+margin: 30px;
+font-size: 36px;
+font-weight:bolder;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+   
+    padding-bottom: 40px;
+    gap: 4rem;
+}
+.signup{
+    
+    width: 50% ; 
+    flex-grow: 1;
+}
+.signup h1{
+    font-size: 48px;
+}
+.image-box{
+
+ width: 50% ;
+ background-color: gray;
+ flex-grow: 1;
+
+}
+.signup h3{
+    background: rgb(19, 19, 211);
+    text-align: center;
+    width: 100px;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px;
+}
+.ran{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0 100px;
+    justify-content: center;
+    gap: 3rem;
+    min-height: 20vh;
+    
+    
+}
+.box{
+    max-width: 10rem;
+    color: rgb(73, 72, 72);
+}
+.box p{
+    padding: 10px;
+}
+.image{
+    border: 2px solid blue;
+    height: 150px;
+    border-radius: 20px;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.quote{
+   
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dis{
+    padding: 20px;
+     max-width: 700px;
+ 
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
+}
+.auter{
+   padding: 20px;
+   justify-self: flex-end;
+   font-size: 24px;
+   color: #1f2937;
+}
+.bottem{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+.text{
+    background: rgb(30, 126, 216);
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    color: #e5e7eb;
+}
+.text 
+.sign {
+    border: 1px solid wheat;
+    padding: 10px 20px;
+    border-radius: 10px;
+  
+}
+.sign a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
